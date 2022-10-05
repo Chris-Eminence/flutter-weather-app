@@ -22,7 +22,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
             //Get the current location
             getLocation();
           },
-          child: Text('Get Location'),
+          child: const Text('Get Location'),
         ),
       ),
     );
